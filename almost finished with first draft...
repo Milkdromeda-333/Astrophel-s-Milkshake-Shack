@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Astrophel's Galactic Milkshake Shack</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" >
+
+<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
+  <link href='style.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Astloch' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Astloch';font-size: 22px;
+}
+body {
+  background-image: url("https://64.media.tumblr.com/be57b8f267b7b66d3142b9646e849e1d/tumblr_omhxxauH031utmnjno1_1280.gifv");
+  background-color: #D0A0FA;
+  
+}
+</style>
+</head>
+<body>
+  <script src='script.js'></script>
+  <h1 style="color:#00FF40;text-align:center"><strong>~Welcome to Astrophel's Galactic Milkshake Shack!!~~</strong></h1>
+    <p style="color:#00FF40;font-size:130%">
+      Customze your own milkshake using our delicious ingredients! Give us your name, and click submit! Your order will materialize within 10 zeptoseconds! Garaunteeed!
+      </p>
+  <p style="color:red;font-size:90%;text-align:center;font-family:'Creepster';letter-spacing: 10px;background-color:black">
+    <marquee width="550"scrollamount="100"scrolldelay="700"loop="500"
+      <strong>***(Warning! Milk is from organic space murderer rhinos! Mind your allergies!)***</strong>
+      </marquee>
+  </p>
+  <div>
+  <form style="background-color:grey;color:#00FF40">
+    <!--First ingredient-->
+   <p><strong> Which base suits you?</strong></p>
+     <input type="radio" id="milk" name="base" value="milk">
+     <label for="milk"> Milk*</label>
+     <br>
+     <input type="radio" name="base" id="bismuth-milk" value="bismuth-milk">
+     <label for="bismuth-milk">Bismuth Milk</label>
+     <br>
+     <input type="radio" name="base" id="homo-sapiens milk" value="homo-sapiens milk">
+    <label for="homo-sapiens milk"> <span style="font-family: 'Cutive Mono'; color:red;font-size:80%">RARE!</span> Homo-sapiens Milk</label> 
+     <br><br><hr color="#00FF40">
+<div style="text-align:right">
+     <!--2nd ingredient-->
+    <p><strong>What flavor(s) suit you?</strong></p>
+     <label for="earth choolate">Earth chocolate!</label>
+     <input type="checkbox" name="flavors" id="earth chocolate" value="earth chocolate">
+    
+      <br>
+
+   
+    <label for="salted cranmelon">
+      Salted Cranmelon</label>
+    <input type="checkbox" id="salted cranmelon" name="flavors" value="salted cranmelon">
+    
+        <br>
+
+  <label for="doughy coquina">Doughy Coquina</label> 
+  <input type="checkbox" name="flavors" value="Doughy Coquina" id="doughy coquina">
+        <br>
+
+   <label for="foxgloves"><span style="font-family:Cutive Mono; color:#FF00FB;font-size:80%">
+   New! Aromatic selections!</span> Foxgloves</label>
+     <input type="checkbox" name="flavors" value="foxgloves" id="foxgloves">
+        <br>
+
+    <label for="petunia"><span style="font-family:Cutive Mono; color:#AF00FF;font-size:80%"> New! Aromatic selections!</span>Petunias</label>
+      <input type="checkbox" name="flavors" value="petunia" id="petunia">
+</div>
+    <hr color="#00FF40">
+    <!--4th ingredient=Toppings-->
+    <p><label for="topping"><strong>What topping suits you?</strong></label></p>
+    <input list="topping"name="topping">
+    <datalist id="topping">
+      <option value="Moon Rocks">
+      <option value="Saturian Anthe rocks!">
+      <option value="Bursting Juicy Peix Eggs">
+      <option value="Colorful Sweet Wax">
+     </datalist>
+     <br><br>
+     <!--4th ingredient-->
+     <vl>
+    <div style="text-align:right"> 
+      <strong>Do you want drizzle?</strong>
+    <input type="radio" id="drizzleopt" name="drizzleopt" value="yes">Yes!
+    <input type="radio" id="drizzleopt" name="drizzleopt" value="no">No!
+     </div>
+     <br><hr color="#00FF40">
+     <p><label for="name"><strong>Name for your order...(1 to 28 charecters)</strong></label>
+     <input type="text" name="name" id="name" required min="1" max="28" placeholder="I'd bet you have a cool name :)" pattern=[a-zA-Z]+ size="28" style="text-indent:10px;">
+    <div style="text-align:center>" <input type="submit" value="submit""></div>
+    </form>
+    </div>  
+</body>
+</html>
